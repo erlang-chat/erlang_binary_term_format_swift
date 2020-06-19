@@ -23,10 +23,24 @@ You can read more about the BERT encoding at [Erlang Bert](http://erlang.org/doc
 
 ## Installation
 
-BertSwift is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
+Add to dependency in `package.swift`.
 
-```ruby
-pod "BertSwift"
+```
+import PackageDescription
+
+let package = Package(
+
+    dependencies: [
+        .package(url: "https://github.com/erlang-chat/erlang_binary_term_format_swift.git", from: "2.2.0")
+        //....
+    ],
+    targets: [
+        .target(name: "App", dependencies: ["BertSwift",
+          //... other dependencies
+        ]),
+        .target(name: "Run", dependencies: ["App"])
+    ]
+)
 ```
 
 ## Change Log
@@ -38,7 +52,7 @@ pod "BertSwift"
 
 ## Author
 
-Pankaj Soni <pankajsoni@softwarejoint.com>
+Pankaj Soni <pankajsoni19@live.com>
 
 ## License
 
