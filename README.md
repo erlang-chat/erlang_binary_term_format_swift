@@ -7,15 +7,15 @@
 
 ## About
 
-Erlang Bert serializer/deserializer library for Swift 4.1
+Erlang Bert serializer/deserializer library for Swift.
 
 You can read more about the BERT encoding at [Erlang Bert](http://erlang.org/doc/apps/erts/erl_ext_dist.html)
 
 ## Other Languages
 
-* [Swift](https://github.com/softwarejoint/SwiftBert)
-* [Android](https://github.com/softwarejoint/AndroidBert)
-* [JavaScript](https://github.com/softwarejoint/JavaScriptBert)
+* [Swift](https://github.com/erlang-chat/erlang_binary_term_format_swift)
+* [Android](https://github.com/erlang-chat/erlang_binary_term_format_android)
+* [JavaScript](https://github.com/erlang-chat/erlang_binary_term_format_javascript)
 
 ## Requirements
 
@@ -31,6 +31,7 @@ pod "BertSwift"
 
 ## Change Log
 
+* 2.2.0 - Support for Swift 5.4
 * 2.1.2 - Support for Swift 4.1
 * 2.1.1 - Updating BigInt dependency
 * 2.1.0 - Support for Swift 4.0
